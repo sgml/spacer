@@ -1,3 +1,6 @@
-/out
-/spacer
 .DS_Store
+
+logs
+temp
+config/nginx.development.conf
+config/nginx.production.conf
