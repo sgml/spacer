@@ -1,3 +1,6 @@
+-- define your external service endpoints here
 return {
-    ["gcr.io/spacer-184617/api"] = "http://35.234.0.232"
+    -- format: name = URL
+    -- example:
+    ["gcr.io/<SPACER_PROJECT>/<IMAGE_NAME>"] = "http://<ENDPOINT_URL>"
 }
